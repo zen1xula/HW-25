@@ -1,0 +1,29 @@
+.hw-list {
+  display: flex;
+  gap: 40px;
+}
+
+.hw-item {
+  width: 200px;
+  height: 200px;
+}
+
+.hw-item:nth-child(1) {
+  background-color: rgb(255, 0, 0);
+  position: static;
+}
+.hw-item:nth-child(2) {
+  background-color: rgb(108, 161, 239);
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  right: 10px;
+}
+
+.hw-item:nth-child(3) {
+  background-color: rgb(126, 223, 117);
+  position: relative;
+  top: 170px;
+  right: 40px;
+  z-index: -1;
+}
